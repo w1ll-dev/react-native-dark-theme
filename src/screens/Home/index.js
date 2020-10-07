@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <ThemeProvider theme={theme}>
       <Wrapper>
-        <Title>Home</Title>
+        <Title>{activeTheme}</Title>
       </Wrapper>
     </ThemeProvider>
   );
